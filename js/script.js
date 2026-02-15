@@ -80,7 +80,7 @@ function orderWhatsApp(name, price) {
   );
 
   window.open(
-    `https://wa.me/919019438437?text=${message}`,
+    `https://wa.me/9019438437?text=${message}`,
     "_blank"
   );
 }
