@@ -52,7 +52,7 @@ header {
 
 .card {
   background: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 6px;
   position: relative;
   transition: 0.3s;
@@ -63,9 +63,12 @@ header {
 }
 
 .card img {
-  width: 100%;
+  width: 200px;
   height: 200px;
+  margin: 30px;
   object-fit: cover;
+  align-items: center;
+  justify-content: center;
 }
 
 .badge {
@@ -115,4 +118,65 @@ button:hover {
   font-size: 28px;
   text-decoration: none;
   color: white;
+}.brand-story {
+  background: rgba(255, 248, 235, 0.95);
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
 }
+
+.story-container {
+  max-width: 900px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #4a3f35;
+  line-height: 1.8;
+}
+
+.story-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #5c3b1e;
+}
+
+.story-container h3 {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #6b4a2f;
+}
+
+.story-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.story-container ul li {
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.promise li {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.brand-sign {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #d8c3a5;
+}
+
+.brand-sign h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.brand-sign p {
+  font-style: italic;
+  color: #7a5a3b;
+}
+
+
+
+

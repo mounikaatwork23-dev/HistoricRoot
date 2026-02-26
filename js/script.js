@@ -1,30 +1,30 @@
 const products = [
   {
     id: 1,
-    name: "Health Mix Powder",
+    name: "Traditiona Rice Health mix - 300g",
     price: 199,
     rating: 4,
     stock: true,
     discount: "20%",
-    image: "assets/images/56_ragi_flour.jpg"
+    image: "assets/images/packet_300g.png"
   },
   {
     id: 2,
-    name: "Raagi malt",
+    name: "Traditiona Rice Health mix - 500g",
     price: 220,
     rating: 5,
     stock: true,
     discount: "20%",
-    image: "assets/images/56_ragi_flour.jpg"
+    image: "assets/images/packet_300g.png"
   },
   {
     id: 3,
-    name: "Raagi laddu",
+    name: "Traditiona Rice Health mix - 1kg",
     price: 300,
     rating: 4,
     stock: false,
     discount: "15%",
-    image: "assets/images/56_ragi_flour.jpg"
+    image: "assets/images/packet_300g.png"
   }
 ];
 
