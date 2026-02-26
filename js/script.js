@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     name: "Traditiona Rice Health mix - 300g",
-    price: 199,
+    price: 229,
     rating: 4,
     stock: true,
     discount: "20%",
@@ -11,7 +11,7 @@ const products = [
   {
     id: 2,
     name: "Traditiona Rice Health mix - 500g",
-    price: 220,
+    price: 339,
     rating: 5,
     stock: true,
     discount: "20%",
@@ -20,7 +20,7 @@ const products = [
   {
     id: 3,
     name: "Traditiona Rice Health mix - 1kg",
-    price: 300,
+    price: 649,
     rating: 4,
     stock: false,
     discount: "15%",
