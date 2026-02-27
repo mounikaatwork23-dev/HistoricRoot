@@ -121,19 +121,19 @@ const searchInput = document.getElementById("searchInput");
 //   });
 // }
 
-// function orderWhatsApp(name, price) {
-//   const message = encodeURIComponent(
-//     `Hello, I want to order:\nProduct: ${name}\nPrice: ₹${price}`
-//   );
+function orderWhatsApp(name, price) {
+  const message = encodeURIComponent(
+    `Hello, I want to order:\nProduct: ${name}\nPrice: ₹${price}`
+  );
 
-//   window.open(
-//     `https://wa.me/9986155316?text=${message}`,
-//     "_blank"
-//   );
-// }
+  window.open(
+    `https://wa.me/9986155316?text=${message}`,
+    "_blank"
+  );
+}
 
-// // Search input event
-// searchInput.addEventListener("input", renderProducts);
+// Search input event
+searchInput.addEventListener("input", renderProducts);
 
 // // Initial render
 // renderProducts();
