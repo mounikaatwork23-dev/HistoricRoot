@@ -23,7 +23,7 @@ const products = {
     name: "Traditiona Rice Health mix - 1kg",
     price: 569,
     rating: 4,
-    stock: false,
+    stock: true,
     discount: "15%",
     image: "assets/images/packet_300g.png"
   }
