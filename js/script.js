@@ -31,23 +31,41 @@ const products = {
   "Kitchen Essentials": [
     {
       id: 1,
-      name: "Soap",
-      price: 55,
+      name: "Puliyogare Mix - 200g",
+      price: 118,
       rating: 4,
       stock: true,
       discount: "10%",
-      image: "assets/images/product_soap.png"
+      image: "assets/images/puliyogare.png"
     },
    {
       id: 1,
-      name: "Soap",
-      price: 55,
+      name: "Sambar powder - 200g",
+      price: 126,
       rating: 4,
       stock: true,
       discount: "10%",
-      image: "assets/images/product_soap.png"
+      image: "assets/images/sambar_powder.png"
     },
    {
+      id: 1,
+      name: "Rasam powder - 200g",
+      price: 132,
+      rating: 4,
+      stock: true,
+      discount: "10%",
+      image: "assets/images/rasam_powder.png"
+    }, {
+      id: 1,
+      name: "Sweet pickle - 100g",
+      price: 150,
+      rating: 4,
+      stock: false,
+      discount: "10%",
+      image: "assets/images/sweet_pickle.png"
+    }],
+     "Body Care": [
+    {
       id: 1,
       name: "Soap",
       price: 55,
