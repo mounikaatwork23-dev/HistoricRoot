@@ -233,8 +233,8 @@ h2 {
   font-size: 28px;
   text-decoration: none;
   color: white;
-}.brand-story {
-  background: rgba(255, 248, 235, 0.95);
+}
+.brand-story {
   padding: 80px 20px;
   display: flex;
   justify-content: center;
@@ -292,6 +292,40 @@ h2 {
   color: #7a5a3b;
 }
 
+.faq-section {
+  outline: none;
+  padding: 50px 20px;
+  background: #faf8f3;
+}
 
+.faq-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  margin-bottom: 12px;
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.faq-item summary {
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+}
+
+.faq-item p {
+  margin-top: 10px;
+  color: #555;
+}
 
 
