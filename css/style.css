@@ -234,62 +234,77 @@ h2 {
   text-decoration: none;
   color: white;
 }
-.brand-story {
-  padding: 80px 20px;
-  display: flex;
-  justify-content: center;
+.brand-story{
+  background:#f5f1ea;
+  padding:70px 20px;
 }
 
-.story-container {
-  max-width: 900px;
-  text-align: center;
-  font-family: 'Georgia', serif;
-  color: #4a3f35;
-  line-height: 1.8;
+.story-container{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
 }
 
-.story-container h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #5c3b1e;
+.story-card{
+  background:white;
+  padding:40px;
+  margin-bottom:40px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-.story-container h3 {
-  margin-top: 40px;
-  font-size: 24px;
-  color: #6b4a2f;
+.story-title{
+  font-size:28px;
+  color:#5a3e2b;
+  margin-bottom:15px;
+  font-family: 'Playfair Display', serif;
 }
 
-.story-container ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
+.story-sub{
+  font-weight:600;
+  margin-bottom:10px;
+  color:#555;
 }
 
-.story-container ul li {
-  margin: 8px 0;
-  font-weight: 500;
+.mission-list,
+.vision-list{
+  list-style:none;
+  padding:0;
+  margin:20px 0;
 }
 
-.promise li {
-  font-weight: bold;
-  letter-spacing: 1px;
+.mission-list li,
+.vision-list li{
+  font-size:16px;
+  padding:8px 0;
+  color:#444;
 }
 
-.brand-sign {
-  margin-top: 50px;
-  padding-top: 30px;
-  border-top: 1px solid #d8c3a5;
+.story-highlight{
+  margin-top:25px;
+  font-size:18px;
+  color:#333;
 }
 
-.brand-sign h2 {
-  font-size: 28px;
-  margin-bottom: 5px;
+.story-ending{
+  margin-top:20px;
+  font-size:16px;
+  color:#444;
 }
 
-.brand-sign p {
-  font-style: italic;
-  color: #7a5a3b;
+.brand-sign{
+  margin-top:40px;
+}
+
+.brand-sign h3{
+  font-family: 'Playfair Display', serif;
+  font-size:26px;
+  color:#3c2c1e;
+}
+
+.brand-sign p{
+  color:#777;
+  letter-spacing:1px;
 }
 
 .faq-section {
