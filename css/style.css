@@ -348,9 +348,6 @@ h2 {
   text-align: center;
   padding: 40px 20px;
   border-top: 2px solid #c5a46d;
-
-  width: 100%;        /* ✅ important */
-  max-width: 100%;    /* ✅ prevents shrink */
 }
 
 .footer h3 {
