@@ -1,8 +1,14 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* prevents side scroll */
 }
 
 body {
@@ -103,7 +109,8 @@ h2 {
   padding: 30px;
   gap: 30px;
 
-
+  width: 100%;      /* ✅ add this */
+  max-width: 100%;  /* ✅ add this */
 }
 
 .sidebar {
@@ -344,11 +351,14 @@ h2 {
 }
 
 .footer {
-  background: #0a0a0a; /* deep black */
-  color: #e6d3a3; /* soft gold text */
+  background: #0a0a0a;
+  color: #e6d3a3;
   text-align: center;
   padding: 40px 20px;
-  border-top: 2px solid #c5a46d; /* gold border */
+  border-top: 2px solid #c5a46d;
+
+  width: 100%;        /* ✅ important */
+  max-width: 100%;    /* ✅ prevents shrink */
 }
 
 .footer h3 {
