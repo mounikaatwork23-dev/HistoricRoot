@@ -343,4 +343,50 @@ h2 {
   color: #555;
 }
 
+.footer {
+  background: #0b5d4b;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.footer a {
+  color: #00c3ff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 28px;
+  margin: 10px;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.creator {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
 
