@@ -60,7 +60,7 @@ const products = {
       name: "Sweet pickle - 100g",
       price: 150,
       rating: 4,
-      stock: false,
+      stock: true,
       discount: "10%",
       image: "assets/images/sweet_pickle.png"
     }],
@@ -68,7 +68,7 @@ const products = {
     {
       id: 1,
       name: "Soap",
-      price: 55,
+      price: 75,
       rating: 4,
       stock: true,
       discount: "10%",
@@ -111,8 +111,12 @@ const searchInput = document.getElementById("searchInput");
 
 
 function orderWhatsApp(name, price) {
+  // const message = encodeURIComponent(
+  //   `Hello, I want to order:\nProduct: ${name}\nPrice: ₹${price}`
+  // );
+
   const message = encodeURIComponent(
-    `Hello, I want to order:\nProduct: ${name}\nPrice: ₹${price}`
+    `Hello, I want to order:\nProduct: Can you provide more details`
   );
 
   window.open(
