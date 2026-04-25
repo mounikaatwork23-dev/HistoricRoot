@@ -116,7 +116,7 @@ function orderWhatsApp(name, price) {
   // );
 
   const message = encodeURIComponent(
-    `Hello, I want to order:\nProduct: Can you provide more details`
+    `Hello, I want to order:\nProduct: ${name}\n Can you provide more details`
   );
 
   window.open(
